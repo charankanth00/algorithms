@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "How many odd numbers you want to print? "
+step-3: read Count
+step-4: Odd_Number = 1
+step-5: print "The " + Count + " odd numbers are " + Odd_Numeber
+step-6: Final_Odd_Number = Count * 2 - 1
+step-7: Odd_Number = Odd_Number + 2
+step-8: if ( Odd_Number != Final_Odd_Number )
+	  print ", " + Odd_Number
+	  goto step-7
+step-9: print ", " + Odd_Number + ".\n"
+step-10: stop
