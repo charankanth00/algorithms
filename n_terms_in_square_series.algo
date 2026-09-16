@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "how many square series terms you want to print? "
+step-3: read Count
+step-4: Counter = 1
+step-5: print "The first " + Count + " terms in the square series are " + Counter 
+step-6: Counter + 1
+step-7: Square_Term = Counter * Counter
+step-8: if ( Counter <= Count )
+	  print ", " + Square_Term
+	  goto step-6
+step-9: print ".\n"
+step-10: stop
