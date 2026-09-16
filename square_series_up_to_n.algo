@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "up to which number you want to print square series? "
+step-3: read Square_Count
+step-4: Counter = 1
+step-5: print "The square series up to " + Square_Count + " is " + Counter
+step-6: Counter = Counter + 1
+step-7: Square_Val = Counter * Counter
+step-8: if ( Square_Val <= Square_Count)
+	  print ", " + Square_Val
+	  goto step-6
+step-9: print ".\n"
+step-10: stop
