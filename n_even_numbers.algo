@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "How many even numbers you want me to print? "
+step-3: read Count
+step-4: Even_Counter = 0
+step-5: print "The " + Count + " even numbers are " + Even_Counter
+step-6: Final_Even_Number = Count * 2 - 2
+step-7: Even_Counter = Even_Counter + 2
+step-8: if ( Even_Counter != Final_Even_Number )
+	  print ", " + Even_Counter
+	  goto step-7
+step-9: print ", " + Even_Counteer + ".\n"
+step-10: stop
