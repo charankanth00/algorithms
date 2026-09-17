@@ -1,0 +1,13 @@
+step-1: start
+step-2: print "to find the sum of most significant and least significant digit.\n enter a number: "
+step-3: read GivenNum
+step-4: LSD = GivenNum % 10
+step-5: print "The least significant digit of " + GivenNum + " is " + LSD + " and its most significant digit is "
+step-6: if ( GivenNum <= 9 )
+          MSD = GivenNum
+          goto step-9
+step-7: GivenNum = GivenNum / 10
+step-8: goto step-6
+step-9: Sum = LSD + MSD
+step-10: print MSD + ", their sum is " + Sum + ".\n"
+step-11: stop
