@@ -1,0 +1,9 @@
+step-1: start
+step-2: print "To find most significant value enter a digit: "
+step-3: read GivenDigit
+step-4: if ( GivenDigit <= 9 )
+          goto step-7
+step-5: GivenDigit = GivenDigit / 10
+step-6: goto step-4
+step-7: print "The most significant digit is " + GivenDigit + ".\n"
+step-8: stop
