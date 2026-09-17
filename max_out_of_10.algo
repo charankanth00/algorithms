@@ -1,0 +1,13 @@
+step-1: start
+step-2: print "to find maximum of 10 numbers.\n enter the first number: "
+step-3: read BigNum
+step-4: Counter = 0 
+step-5: if ( Counter != 9 )
+          print "enter the next number: "
+          read GivenNum
+          if ( GivenNum > BigNum )
+            BigNum = GivenNum
+          Counter = Counter + 1
+          goto step-5
+step-6: print "the maximum number out of 10 values is " + BigNum + ".\n"
+step-7: stop
