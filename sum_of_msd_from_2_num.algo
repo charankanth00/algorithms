@@ -1,0 +1,20 @@
+step-1: start
+step-2: print " to find the sum of most significant digit from two numbers.\n enter teh first number: "
+step-3: read GivenNum1
+step-4: print "Enter the second number: "
+step-5: read GivenNum2
+step-6: Sum = 0
+step-7: FindMSV = GivenNum1
+step-8: if ( FindMSV <= 9 )
+          goto step-11
+step-9: FindMSV = FindMSV / 10
+step-10: goto step-8
+step-11: if ( Sum = 0 )
+           MSV1 = FindMSV
+           Sum = MSV1
+           FindMSV = GivenNum2
+           goto step-8
+step-12: MSV2 = FindMSV
+step-13: Sum = MSV1 + MSV2
+step-14: print " The sum of most sifnigicant digit are " + MSV1 + " and " + MSV2 + " is " + Sun + ".\n"
+step-15: stop
