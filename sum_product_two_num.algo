@@ -1,0 +1,15 @@
+step-1: start
+step-2: print "take any two positive numbers then tell  me sum and product of two numbers. I will find the actuval two numbers.\n"
+step-3: print "enter the sum of two numbers: "
+step-4: read Sum
+step-5: print "enter the product of two numbers: "
+step-6: read Product
+step-7: Num1 = 0
+step-8: Num2 = Sum
+step-9: if ( (Num1 * Num2) = Product )
+          goto step-13
+step-10: Num1 = Num1 + 1
+step-11: Num2 = Num2 - 1
+step-12: goto step-9
+step-13: print "the actuval two numbers are " + Num1 + " and " + Num2 + "these numbers sum is " + Sum + " and the product is " + Product + ".\n"
+step-14: stop 
