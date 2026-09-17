@@ -7,7 +7,9 @@ step-6: if ( Count = Counter )
 	  goto step-11
 step-7: Counter = Counter + 1
 step-8: Multiple = 9 * Counter
-step-9: print ".\n"
-step-10: stop
+step-9: print ", "+  Multiple 
+step-10: goto step-6
+step-11: print ".\n"
+step-12: stop
 
 
