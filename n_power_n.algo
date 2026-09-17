@@ -1,0 +1,14 @@
+step-1: start
+step-2: print "To compute N power N.\n"
+step-3: print "enter the value of N: "
+step-4: read GivenNum
+step-5: ComputeValue = GivenNum
+step-6: Counter = 1
+step-7: if ( Counter = GivenNum )
+          print GivenNum + " power " + GivenNum + " is " + ComputeValue + ".\n"
+          goto step-11
+step-8: Counter = Counter + 1
+step-9: ComputeValue = ComputeValue * GivenNum
+step-10: goto step-7
+step-11: stop 
+
